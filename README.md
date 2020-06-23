@@ -5,7 +5,7 @@
 
 #### 私聊示例
 ws://127.0.0.1:8080/?accessToken=番茄
-***
+
 {
     type: "SEND_TO_ONE_REQUEST",
     body: {
@@ -14,9 +14,9 @@ ws://127.0.0.1:8080/?accessToken=番茄
         content: "收到aa 我是番茄"
     }
 }
-
-ws://127.0.0.1:8080/?accessToken=aa
 ***
+ws://127.0.0.1:8080/?accessToken=aa
+
 {
     type: "SEND_TO_ONE_REQUEST",
     body: {
@@ -25,11 +25,11 @@ ws://127.0.0.1:8080/?accessToken=aa
         content: "番茄 我是aa"
     }
 }
-
+***
 
 #### 群聊示例
 ws://127.0.0.1:8080/?accessToken=cc
-***
+
 {
     type: "SEND_TO_ALL_REQUEST",
     body: {
@@ -37,4 +37,4 @@ ws://127.0.0.1:8080/?accessToken=cc
         content: "嗨 大家好 我是新来的cc 请多关照"
     }
 }
-
+***
